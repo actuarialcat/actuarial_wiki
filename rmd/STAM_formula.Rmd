@@ -1,0 +1,51 @@
+---
+title: "Untitled"
+author: "ActuarialCat"
+knit: (function(inputFile, encoding) { 
+        rmarkdown::render(
+            inputFile,
+            encoding = encoding, 
+            output_dir = file.path("../output/")
+        ) 
+    })
+output: 
+    html_document
+    # github_document:
+    #     pandoc_args: --webtex
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

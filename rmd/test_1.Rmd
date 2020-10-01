@@ -9,9 +9,9 @@ knit: (function(inputFile, encoding) {
         ) 
     })
 output: 
-    #html_document
-    github_document:
-        pandoc_args: --webtex
+    html_document
+    # github_document:
+    #     pandoc_args: --webtex
 ---
 
 ```{r setup, include=FALSE}
