@@ -1,7 +1,17 @@
 ---
 title: "Untitled"
 author: "ActuarialCat"
-output: html_document
+knit: (function(inputFile, encoding) { 
+        rmarkdown::render(
+            inputFile,
+            encoding = encoding, 
+            output_dir = file.path("../output/")
+        ) 
+    })
+output: 
+    #html_document
+    github_document:
+        pandoc_args: --webtex
 ---
 
 ```{r setup, include=FALSE}
